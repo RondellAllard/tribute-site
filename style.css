@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: #fff;
+}
+
+#main {
+  width: 100%;
+  background-color: gainsboro;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  margin-top: 1em;
+}
+
+#lead {
+  margin: 2em;
+}
+
+#main_image {
+  max-width: 1200px;
+  width: 100%;
+}
+
+#image_frame {
+  background-color: #fff;
+  padding: 1em;
+}
+
+ul {
+  padding-left: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+}
+
+li {
+  text-align: left;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin: 2em;
+}
+
+blockquote {
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:  1000px;
+}
+
+blockquote p {
+  margin-bottom: 1em;
+}
