@@ -25,12 +25,12 @@ header {
   margin: 2em;
 }
 
-#main_image {
+#image {
   max-width: 1200px;
   width: 100%;
 }
 
-#image_frame {
+#image-div {
   background-color: #fff;
   padding: 1em;
 }
@@ -62,4 +62,8 @@ blockquote {
 blockquote p {
   margin: 1em 1.2em;
 
+}
+
+footer h3 {
+  margin: 3em;
 }
